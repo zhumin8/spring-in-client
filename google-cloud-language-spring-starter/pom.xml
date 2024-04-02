@@ -15,24 +15,27 @@
     <scgcp.version>5.1.0</scgcp.version>
     <gcp-libraries-bom.version>26.34.0</gcp-libraries-bom.version>
     <spring-boot-dependencies.version>3.2.3</spring-boot-dependencies.version>
+    <client-library.version>2.41.0-SNAPSHOT</client-library.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
+        <!--        potentially moving to shared/gax-->
         <groupId>com.google.cloud</groupId>
         <artifactId>spring-cloud-gcp-core</artifactId>
         <version>${scgcp.version}</version>
       </dependency>
       <dependency>
         <groupId>com.google.cloud</groupId>
+        <!--        potentially moving to shared/gax-->
         <artifactId>spring-cloud-gcp-autoconfigure</artifactId>
         <version>${scgcp.version}</version>
       </dependency>
       <dependency>
         <groupId>com.google.cloud</groupId>
-        <artifactId>libraries-bom</artifactId>
-        <version>${gcp-libraries-bom.version}</version>
+        <artifactId>google-cloud-language-bom</artifactId>
+        <version>${client-library.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -69,6 +72,11 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>

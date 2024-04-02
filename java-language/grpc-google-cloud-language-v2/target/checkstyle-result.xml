@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.14.1">
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/grpc-google-cloud-language-v2/src/main/java/com/google/cloud/language/v2/LanguageServiceGrpc.java">
+</file>
+</checkstyle>

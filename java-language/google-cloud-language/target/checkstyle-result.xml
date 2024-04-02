@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.14.1">
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/LanguageServiceClient.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/stub/GrpcLanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/stub/HttpJsonLanguageServiceCallableFactory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/stub/LanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/stub/LanguageServiceStubSettings.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/stub/GrpcLanguageServiceCallableFactory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/stub/HttpJsonLanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/LanguageServiceSettings.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1beta2/package-info.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/LanguageServiceClient.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/stub/GrpcLanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/stub/HttpJsonLanguageServiceCallableFactory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/stub/LanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/stub/LanguageServiceStubSettings.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/stub/GrpcLanguageServiceCallableFactory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/stub/HttpJsonLanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/LanguageServiceSettings.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v2/package-info.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/LanguageServiceClient.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/stub/GrpcLanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/stub/HttpJsonLanguageServiceCallableFactory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/stub/LanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/stub/LanguageServiceStubSettings.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/stub/GrpcLanguageServiceCallableFactory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/stub/HttpJsonLanguageServiceStub.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/LanguageServiceSettings.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/main/java/com/google/cloud/language/v1/package-info.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1beta2/MockLanguageService.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1beta2/LanguageServiceClientHttpJsonTest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1beta2/MockLanguageServiceImpl.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1beta2/LanguageServiceClientTest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v2/MockLanguageService.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v2/LanguageServiceClientHttpJsonTest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v2/MockLanguageServiceImpl.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v2/LanguageServiceClientTest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1/MockLanguageService.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1/LanguageServiceClientHttpJsonTest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1/MockLanguageServiceImpl.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/google-cloud-language/src/test/java/com/google/cloud/language/v1/LanguageServiceClientTest.java">
+</file>
+</checkstyle>

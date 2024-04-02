@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.14.1">
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassifyTextResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/DependencyEdgeOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/Document.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSentimentRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitiesResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSyntaxResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/TextSpanOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSyntaxRequest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/EntityMentionOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassificationCategoryOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSyntaxRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/SentenceOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnnotateTextResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitySentimentRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/PartOfSpeech.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSentimentResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ModerateTextResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/Sentence.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassificationModelOptionsOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitySentimentResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitySentimentResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ModerateTextResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/EntityOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/TokenOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/EntityMention.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/DocumentOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSentimentResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitiesResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/Entity.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassifyTextRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/Sentiment.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSentimentRequest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/TextSpan.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnnotateTextRequest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitiesRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/PartOfSpeechOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassificationModelOptions.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassifyTextRequest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/LanguageServiceProto.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/EncodingType.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/Token.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/SentimentOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassifyTextResponse.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnnotateTextResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/DependencyEdge.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitiesRequest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeEntitySentimentRequest.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ModerateTextRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ClassificationCategory.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnnotateTextRequestOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/AnalyzeSyntaxResponseOrBuilder.java">
+</file>
+<file name="/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/proto-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/ModerateTextRequest.java">
+</file>
+</checkstyle>

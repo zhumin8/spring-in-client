@@ -23,6 +23,7 @@
     <module>google-cloud-pom-parent</module>
     <module>java-language</module>
     <module>google-cloud-language-spring-starter</module>
+    <module>sample-code</module>
   </modules>
   <dependencies>
     <dependency>

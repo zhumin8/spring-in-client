@@ -34,7 +34,7 @@
       </dependency>
       <dependency>
         <groupId>com.google.cloud</groupId>
-        <artifactId>google-cloud-language-bom</artifactId>
+        <artifactId>google-cloud-language</artifactId>
         <version>${client-library.version}</version>
         <type>pom</type>
         <scope>import</scope>

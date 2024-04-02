@@ -1,4 +1,0 @@
-#Tue Apr 02 15:41:19 EDT 2024
-configuration*?=4DD23CCC18A6874E51977C34FED7B104BD112B5B
-module-resource*?\:file\:/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/grpc-google-cloud-language-v1/target/checkstyle-header.txt=AD1E8F63061677B8EBD24CDBE36864CA30D2DF96
-/usr/local/google/home/zhumin/repos/playground/spring-in-client/java-language/grpc-google-cloud-language-v1/src/main/java/com/google/cloud/language/v1/LanguageServiceGrpc.java=1712085246136

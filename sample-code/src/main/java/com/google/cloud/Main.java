@@ -32,19 +32,6 @@ public class Main {
           "Sentiment: score = %s, magnitude = %s%n",
           sentiment.getScore(), sentiment.getMagnitude());
 
-      List<Entity> entities = language.analyzeEntities(doc).getEntitiesList();
-      System.out.println("Analyze Entities: ");
-      entities.forEach(
-          x ->
-              System.out.println(
-                  "Entity: "
-                      + x.getName()
-                      + ", Salience: "
-                      + x.getSalience()
-                      + ", Sentiment: "
-                      + x.getSentiment()
-                      + ", Mention counts: "
-                      + x.getMentionsCount()));
     }
   }
 }

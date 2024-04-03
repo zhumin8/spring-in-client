@@ -21,18 +21,18 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <!--        potentially moving to shared/gax-->
-        <groupId>com.google.cloud</groupId>
-        <artifactId>spring-cloud-gcp-core</artifactId>
-        <version>${scgcp.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.google.cloud</groupId>
-        <!--        potentially moving to shared/gax-->
-        <artifactId>spring-cloud-gcp-autoconfigure</artifactId>
-        <version>${scgcp.version}</version>
-      </dependency>
+<!--      <dependency>-->
+<!--        &lt;!&ndash;        potentially moving to shared/gax&ndash;&gt;-->
+<!--        <groupId>com.google.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-gcp-core</artifactId>-->
+<!--        <version>${scgcp.version}</version>-->
+<!--      </dependency>-->
+<!--      <dependency>-->
+<!--        <groupId>com.google.cloud</groupId>-->
+<!--        &lt;!&ndash;        potentially moving to shared/gax&ndash;&gt;-->
+<!--        <artifactId>spring-cloud-gcp-autoconfigure</artifactId>-->
+<!--        <version>${scgcp.version}</version>-->
+<!--      </dependency>-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
@@ -108,14 +108,40 @@
       <artifactId>threetenbp</artifactId>
     </dependency>
 
+    <!--    dependencies brought in for spring autoconfig-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter</artifactId>
+      <optional>true</optional>
     </dependency>
 
+<!--    <dependency>-->
+<!--      <groupId>com.google.cloud</groupId>-->
+<!--      <artifactId>spring-cloud-gcp-autoconfigure</artifactId>-->
+<!--      <version>${scgcp.version}</version>-->
+<!--      <optional>true</optional>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>com.google.cloud</groupId>
-      <artifactId>spring-cloud-gcp-autoconfigure</artifactId>
+      <artifactId>spring-cloud-gcp-core</artifactId>
+      <version>${scgcp.version}</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
+
+    <!-- Global -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure-processor</artifactId>
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -131,6 +157,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
+      <optional>true</optional>
     </dependency>
     <!-- Test dependencies -->
     <dependency>

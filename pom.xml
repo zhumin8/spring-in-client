@@ -24,6 +24,7 @@
     <module>java-language</module>
     <module>google-cloud-language-spring-starter</module>
     <module>sample-code</module>
+    <module>sample-code-spring</module>
   </modules>
   <dependencies>
     <dependency>

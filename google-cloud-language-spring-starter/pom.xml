@@ -21,18 +21,6 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <!--        potentially moving to shared/gax-->
-        <groupId>com.google.cloud</groupId>
-        <artifactId>spring-cloud-gcp-core</artifactId>
-        <version>${scgcp.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.google.cloud</groupId>
-        <!--        potentially moving to shared/gax-->
-        <artifactId>spring-cloud-gcp-autoconfigure</artifactId>
-        <version>${scgcp.version}</version>
-      </dependency>
-      <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-language</artifactId>
         <version>${client-library.version}</version>
@@ -56,13 +44,20 @@
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <!--        potentially moving to shared/gax-->
+      <groupId>com.google.cloud</groupId>
+      <artifactId>spring-cloud-gcp-core</artifactId>
+      <version>${scgcp.version}</version>
     </dependency>
-
     <dependency>
       <groupId>com.google.cloud</groupId>
+      <!--        potentially moving to shared/gax-->
       <artifactId>spring-cloud-gcp-autoconfigure</artifactId>
+      <version>${scgcp.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>

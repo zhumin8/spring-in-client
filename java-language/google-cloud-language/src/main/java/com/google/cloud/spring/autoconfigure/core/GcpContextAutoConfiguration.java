@@ -30,6 +30,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Lazy;
 
 /**
  * Base starter for Google Cloud Projects. Provides defaults for {@link
@@ -41,6 +42,7 @@ import org.springframework.context.annotation.Bean;
     havingValue = "true",
     matchIfMissing = true)
 @EnableConfigurationProperties(GcpProperties.class)
+@Lazy
 public class GcpContextAutoConfiguration {
   private static final Log LOGGER = LogFactory.getLog(GcpContextAutoConfiguration.class);
 

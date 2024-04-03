@@ -41,6 +41,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Lazy;
 
 // AUTO-GENERATED DOCUMENTATION AND CLASS.
 /**
@@ -65,6 +66,7 @@ import org.springframework.context.annotation.Bean;
     value = "com.google.cloud.language.v2.language-service.enabled",
     matchIfMissing = true)
 @EnableConfigurationProperties(LanguageServiceSpringProperties.class)
+@Lazy
 public class LanguageServiceSpringAutoConfiguration {
   private final LanguageServiceSpringProperties clientProperties;
   private final CredentialsProvider credentialsProvider;

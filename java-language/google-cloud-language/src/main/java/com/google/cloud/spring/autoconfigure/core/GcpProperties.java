@@ -20,9 +20,11 @@ import com.google.cloud.spring.core.Credentials;
 import com.google.cloud.spring.core.CredentialsSupplier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
+import org.springframework.context.annotation.Lazy;
 
 /** Top-level auto-config settings. */
 @ConfigurationProperties("spring.cloud.gcp")
+@Lazy
 public class GcpProperties implements CredentialsSupplier {
 
   /** GCP project ID where services are running. */

@@ -10,7 +10,9 @@
   </parent>
 
   <artifactId>sample-code</artifactId>
-  <description>sample code using client library only</description>
+  <description>sample code using client library only. User do not use and should
+    not expose to any spring dependencies in this application
+  </description>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>

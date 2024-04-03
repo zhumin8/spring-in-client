@@ -25,6 +25,7 @@
     <module>google-cloud-language-spring-starter</module>
     <module>sample-code</module>
     <module>sample-code-spring</module>
+    <module>sample-code-spring-nouse</module>
   </modules>
   <dependencies>
     <dependency>

@@ -20,6 +20,7 @@
   </parent>
   <properties>
     <skipUnitTests>false</skipUnitTests>
+    <google-cloud-shared-dependencies.version>3.28.2-SNAPSHOT</google-cloud-shared-dependencies.version>
   </properties>
 
   <dependencyManagement>

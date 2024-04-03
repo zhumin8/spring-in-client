@@ -1,16 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-language</artifactId>
-  <version>2.41.0-SNAPSHOT</version><!-- {x-version-update:google-cloud-language:current} -->
+  <version>2.41.0-SNAPSHOT
+  </version><!-- {x-version-update:google-cloud-language:current} -->
   <packaging>jar</packaging>
   <name>Google Cloud Natural Language</name>
-  <description>Java idiomatic client for Google Clould Natural Language</description>
+  <description>Java idiomatic client for Google Clould Natural Language
+  </description>
   <parent>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-language-parent</artifactId>
-    <version>2.41.0-SNAPSHOT</version><!-- {x-version-update:google-cloud-language:current} -->
+    <version>2.41.0-SNAPSHOT
+    </version><!-- {x-version-update:google-cloud-language:current} -->
   </parent>
   <properties>
     <site.installationModule>google-cloud-language</site.installationModule>
@@ -21,18 +26,6 @@
 
   <dependencyManagement>
     <dependencies>
-<!--      <dependency>-->
-<!--        &lt;!&ndash;        potentially moving to shared/gax&ndash;&gt;-->
-<!--        <groupId>com.google.cloud</groupId>-->
-<!--        <artifactId>spring-cloud-gcp-core</artifactId>-->
-<!--        <version>${scgcp.version}</version>-->
-<!--      </dependency>-->
-<!--      <dependency>-->
-<!--        <groupId>com.google.cloud</groupId>-->
-<!--        &lt;!&ndash;        potentially moving to shared/gax&ndash;&gt;-->
-<!--        <artifactId>spring-cloud-gcp-autoconfigure</artifactId>-->
-<!--        <version>${scgcp.version}</version>-->
-<!--      </dependency>-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
@@ -88,6 +81,7 @@
     <dependency>
       <groupId>com.google.api</groupId>
       <artifactId>gax</artifactId>
+      <!--      temp exclusion for this poc-->
       <exclusions>
         <exclusion>
           <groupId>io.opentelemetry</groupId>
@@ -110,18 +104,7 @@
 
     <!--    dependencies brought in for spring autoconfig-->
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-      <optional>true</optional>
-    </dependency>
-
-<!--    <dependency>-->
-<!--      <groupId>com.google.cloud</groupId>-->
-<!--      <artifactId>spring-cloud-gcp-autoconfigure</artifactId>-->
-<!--      <version>${scgcp.version}</version>-->
-<!--      <optional>true</optional>-->
-<!--    </dependency>-->
-    <dependency>
+      <!--      potentially bring to shared location-->
       <groupId>com.google.cloud</groupId>
       <artifactId>spring-cloud-gcp-core</artifactId>
       <version>${scgcp.version}</version>
@@ -129,10 +112,17 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-autoconfigure</artifactId>
+      <artifactId>spring-boot-starter</artifactId>
+      <optional>true</optional>
     </dependency>
 
-    <!-- Global -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <!-- copied from scgcp autoconfigure, seems to be dev-ide specific -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-configuration-processor</artifactId>
@@ -143,6 +133,7 @@
       <artifactId>spring-boot-autoconfigure-processor</artifactId>
       <optional>true</optional>
     </dependency>
+    <!--    test dependencies-->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>

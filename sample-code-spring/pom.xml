@@ -31,27 +31,24 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
+    <!--    client library-->
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-language</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-    </dependency>
-
-<!--    <dependency>-->
-<!--      <groupId>com.google.cloud</groupId>-->
-<!--      <artifactId>spring-cloud-gcp-autoconfigure</artifactId>-->
-<!--      <version>5.1.2</version>-->
-<!--    </dependency>-->
+    <!--spring cloud gcp core, classes could be relocated to upstream e.g. shared-java-->
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>spring-cloud-gcp-core</artifactId>
       <version>${scgcp.version}</version>
     </dependency>
 
+    <!--spring dependencies-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
